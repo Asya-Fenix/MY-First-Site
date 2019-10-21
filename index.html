@@ -10,7 +10,9 @@
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/jquery.formstyler.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 	<header class="header">
@@ -18,7 +20,7 @@
 			<div class="container">
 				<div class="header_contacts">
 				<a class="header_phone" href="tel:380993187494">+38 (099) 318 74 94</a>
-				<a class="header_email" href="#">fenixlife36@gmail.com</a>
+				<a data-fancybox data-src="#modal-2" href="javascript:;" class="header_email" href="#">fenixlife36@gmail.com</a>
 				<a data-fancybox data-src="#modal" href="javascript:;" class="header_btn" href="#">Online Консультация</a>
 				</div>
 			</div>
@@ -32,6 +34,12 @@
 				</a>	
 			</div>
 			<nav class="menu">
+				<div class="header_btn-menu">
+					<span class="icon-list"></span>
+				</div>
+					<div class="header_btn-text">
+						<span>Меню</span>
+					</div>
 				<ul>
 					<li><a href="#">Главная</a></li>
 					<li><a href="#">О Компании</a></li>
@@ -92,7 +100,7 @@
 	<div class="container">
 		<div class="services_top">
 			<div class="services_title-box">
-					<div class="services-title">
+					<div class="services_title">
 						Наши услуги
 					</div>
 						<div class="services_text">
@@ -155,20 +163,255 @@
 	</div>
 </section>
 <section class="about">
-	
+	<div class="container">
+		<div class="about_inner">
+		<div class="about_title">
+			О компании
+		</div>
+		<div class="about_text">
+			Целеустремлённая компания.Целеустремлённая компания.Целеустремлённая компания.Целеустремлённая компания.Целеустремлённая компания.Целеустремлённая компания.Целеустремлённая компания.Целеустремлённая компания.Целеустремлённая компания.
+		</div>
+		<a href="#" class=" about_btn default-btn">
+			Узнать больше
+		</a>
+		</div>
+	</div>
 </section>
+<section class="form">
+	<div class="container">
+	<div class="form_inner">
+		<div class="form_content">
+			<div class="form_title-box">
+					<div class="form_title">
+						Получить консультацию
+					</div>
+						<div class="form_text">
+						 Предоставляем возможноть развить свой интернет-магазин на нашем сайте, а также комплексный подход к каждому.
+						</div>
+			</div>
+			<div class="form_box">
+				<form>
+					<div class="form_box-inner">
+						<div class="form_box-left">
+							<label>
+								Email
+								<input type="text">
+							</label>
+							<label>
+								Контактный телефон
+								<input type="text">
+							</label>
+							<label>
+								ФИО
+								<input type="text">
+							</label>
+							<label>
+								Тема вопроса
+								<select>
+									<option>-----------</option>
+									<option>-----------</option>
+									<option>-----------</option>
+									<option>-----------</option>
+								</select>
+							</label>
+						</div>
+						<div class="form_box-right">
+							<label>
+								Сообщение
+								<textarea></textarea>
+							</label>
+							<label>
+							<button class="default-btn" type="submit">Получить консультацию</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
+<section class="advantages">
+	<div class="container">
+		<div class="advantages_inner">
+			<div class="advantages-item">
+				<div class="advantages_title">
+					Отличный сервис
+				</div>
+				<div class="advantages_text">
+					Ваш магазин будет размещён на прочных сервисах нашего сайта. Никакие угрозы нам не страшны.
+				</div>
+			</div>
+			<div class="advantages-item">
+				<div class="advantages_title">
+					Помощь в ведении вашего магазина 24/7
+				</div>
+				<div class="advantages_text">
+					Есть неотложенные вопросы? Решайте вместе с нами. В любое время.
+				</div>
+			</div>
+			<div class="advantages-item">
+				<div class="advantages_title">
+					Приятные бонусы
+				</div>
+				<div class="advantages_text">
+					При сотрудничестве более года, вам будут предоставлены приятные бонусы. Чем дольше работаем вместе, тем больше плюшек.
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="news">
+	<div class="container">
+		<div class="news_top">
+			<div class="news_title-box">
+					<div class="news_title">
+						Новости компании
+					</div>
+						<div class="news_text">
+						 В данном разделе вы найдёте новости о компании и её сотрудников
+						</div>
+			</div>
+			<div class="news_btn">
+				<a href="#" >
+				Открыть все новости
+				</a>
+			</div>
+		</div>
+		<div class="news_inner">
+			<div class="news_slider">
+				<div class="news_slider-inner">
+					<div class="news_slider-item">
+						<div class="news_slider-title">
+							Отличный сервис и его команда
+						</div>
+						<div class="news_slider-text">
+							"На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы.На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы."На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы."На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы."На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы..
+						</div>
+						<div class="news_slider-author">
+							Анастасия Фокина, генеральный директор Menclassic
+						</div>
+					</div>
+					<div class="news_slider-item">
+						<div class="news_slider-title">
+							Отличный сервис и его команда
+						</div>
+						<div class="news_slider-text">
+							"На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы.На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы."На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы."На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы."На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы..
+						</div>
+						<div class="news_slider-author">
+							Анастасия Фокина, генеральный директор Menclassic
+						</div>
+					</div>
+					<div class="news_slider-item">
+						<div class="news_slider-title">
+							Отличный сервис и его команда
+						</div>
+						<div class="news_slider-text">
+							"На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы.На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы."На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы."На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы."На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы..
+						</div>
+						<div class="news_slider-author">
+							Анастасия Фокина, генеральный директор Menclassic
+						</div>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="news_blog">
+				<div class="news_images">
+					<img src="img/news-1.jpg" width="262" height="190">
+					<div class="news_date">03.04</div>
+				</div>
+				<div class="news_blog-title">
+					Новости компании
+				</div>
+				<div class="news_blog-text">
+					"На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы..."
+				</div>
+			</a>
+			<a href="#" class="news_blog">
+				<div class="news_images">
+					<img src="img/news-2.jpg" width="262" height="190">
+					<div class="news_date">03.04</div>
+				</div>
+				<div class="news_blog-title">
+					Новости компании
+				</div>
+				<div class="news_blog-text">
+					"На сегодняшний день, колектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных областях IT сферы..."
+				</div>
+			</a>
+		</div>
+	</div>	
+</section>
+<footer class="footer">
+	<div class="footer_content">
+	<div class="container">
+		<div class="footer_inner">
+		<div class="footer_info">
+			<div class="footer_title">
+				Открытие вашего интернет магазина
+			</div>
+			<div class="footer_text">
+				Вы имеете магазин, но нету интернет-магазина? Вы сделали правильный выбор обратившись к нам. Появились вопросы? Получайте online консультацию.
+			</div>
+			<a data-fancybox data-src="#modal" href="javascript:;" class="header_btn" href="#">
+			Online Консультация
+			</a>
+			<ul class="footer_list">
+				<li><a class="footer_phone" href="tel:+380993187494">+38 (099) 318 74 94</a></li>
+				<li><a href="#">fenixlife36@gmail.com</a></li>
+				<li><a class="footer_adress" href="#">Киев, ул.Академика Заболотного,1</a></li>
+			</ul>
+		</div>
+		<div class="footer_map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.855487903863!2d30.459334515728507!3d50.36924907946425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c8f7fbf76211%3A0x8a8fcae4e9d5baf4!2z0YPQuy4g0JDQutCw0LTQtdC80LjQutCwINCX0LDQsdC-0LvQvtGC0L3QvtCz0L4sIDEsINCa0LjQtdCyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1571251723641!5m2!1sru!2sua" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		</div>
+		</div>
+	</div>
+	</div>
+	<div class="footer_copy">
+		<div class="container">
+			<div class="copy_text">
+				2019 Template by Anastasiia Fokina. Все права защищены.
+			</div>
+		</div>
+	</div>
+</footer>
+ 
+ <div id='modal-2'>
+	<form class="send_letter-form" >
+		<h6 class="send_letter-title">Написать письмо</h6>
+		<div class="send_letter-inner">
+			<label class="send_letter-name">Имя</label>
+			<input type="text" placeholder="Ваше имя и фамилия" class="send_letter-input">
+		</div>
+		<div class="send_letter-inner">
+			<label class="send_letter-email">Email</label>
+			<input type="text" placeholder="Ваш email" class="send_letter-input">
+		</div>
+		<div class="send_letter-inner">
+			<label class="send_letter-tema">Тема</label>
+			<input type="text" placeholder="Причина обращения" class="send_letter-input">
+		</div>
+		<div class="send_letter-inner">
+			<label class="send_letter-text">Коментарий</label>
+			<textarea class="send_letter-textarea"></textarea>
+		</div>
+		<button class="send_letter-btn" type="submit">Отправить</button>
+	</form>
+</div>
 
-
-
-
-		<div  id="modal">
-          <h2>Hello!</h2>
-          <p>You are awesome!</p>
-        </div>
+<div  id="modal">
+	<form>
+		<input type="text" placeholder="Ваше имя">
+		<input type="text" placeholder="Ваш телефон">
+		<input type="submit" value="Отправить">
+	</form>
+</div>
 
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
  <script src="js/jquery.fancybox.min.js"></script>
  <script src="js/slick.min.js"></script>
+ <script src="js/jquery.formstyler.min.js"></script>
  <script src="js/main.js"></script>
 
 </body>
